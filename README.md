@@ -8,7 +8,7 @@ This is my first created end to end project aiming to showcase the data skills I
 ## **Ethereum Transactions Dataset Overview**
 
 
-The dataset used for this project, titled Ethereum Transactions, was sourced from Kaggle. It captures a comprehensive snapshot of Ethereum blockchain activity over a three-hour period on December 4, 2022. The dataset includes detailed information on transactions, such as sender and receiver addresses, transaction values, block numbers, and timestamps. This limited time frame provides a focused view of blockchain activity, allowing for targeted analysis of transaction patterns, participant behavior, and block characteristics within a condensed window of activity.
+The dataset used for this project, titled Ethereum Transactions, was sourced from [Kaggle](https://www.kaggle.com/datasets/blessontomjoseph/ethereum-transactions?resource=download&select=eth_transactions.csv). It captures a comprehensive snapshot of Ethereum blockchain activity over a three-hour period on December 4, 2022. The dataset includes detailed information on transactions, such as sender and receiver addresses, transaction values, block numbers, and timestamps. This limited time frame provides a focused view of blockchain activity, allowing for targeted analysis of transaction patterns, participant behavior, and block characteristics within a condensed window of activity.
 
 ---
 ## **Data Preprocessing and Cleaning**
@@ -98,6 +98,9 @@ Results were added to the DataFrame as Boolean columns indicating the presence o
 
 ## **Visualizations**
 
+**To view the Tableau Visualizations clink [here](https://public.tableau.com/views/EthereumBlockchainActivityInsightsfromAddressesBlocksandTransactions/EthereumBlockchainActivityInsightsfromAddressesBlocksandTransactions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+
 The project insights were visualized in Tableau through the following visualizations:
 
 - **Transaction Value Categorization:**  
@@ -134,3 +137,5 @@ The project insights were visualized in Tableau through the following visualizat
 This project showcases an analysis workflow for Ethereum blockchain transactions. Through data cleaning, feature engineering, SQL querying, and visualization, it prepares and structures the dataset so it is ready for exploring addresses,transactions and block activity. 
 
 By identifying the categories of transaction values, it was shown that most of the transactions were non-monetary transactions, which was backed by the exploration of most active blocks later on. Key addresses, identified as outliers, that exchanged significant amounts of ETH value were further explored to obtain details into these transactions.
+
+
